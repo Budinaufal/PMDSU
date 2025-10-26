@@ -1,12 +1,7 @@
-import subprocess, sys
-subprocess.run([sys.executable, "-m", "pip", "install", "--upgrade", "pip", "plotly", "pandas", "numpy", "openpyxl"], check=True)
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-
-
 
 # === Judul Aplikasi ===
 st.set_page_config(page_title="Digital Twin Project Performance", layout="wide")
