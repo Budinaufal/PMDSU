@@ -1,10 +1,11 @@
-import os
-os.system("pip install plotly pandas numpy openpyxl --quiet")
+import subprocess, sys
+subprocess.run([sys.executable, "-m", "pip", "install", "--upgrade", "pip", "plotly", "pandas", "numpy", "openpyxl"], check=True)
 
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+
 
 
 # === Judul Aplikasi ===
