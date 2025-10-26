@@ -1,7 +1,11 @@
+import os
+os.system("pip install plotly pandas numpy openpyxl --quiet")
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+
 
 # === Judul Aplikasi ===
 st.set_page_config(page_title="Digital Twin Project Performance", layout="wide")
